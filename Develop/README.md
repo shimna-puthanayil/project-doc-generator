@@ -1,10 +1,10 @@
-# g
-  ![GitHub license](https://img.shields.io/badge/License-MIT-yellow.svg)
+# d
+  ![GitHub license]()
   
  
   ## Description
   
-  g
+  d
 
   ## Table of Contents
 
@@ -20,30 +20,30 @@
    To install  necessary dependencies, run the following command :
 
   ```
-  g
+  d
   ```
  
   ## Usage
 
-  g
+  d
 
   ## License
 
-This project is licensed under the MIT license
+ N/A 
 
   ## Contributing
 
-g
+d
 
   ## Tests
 
   To run tests, run the following command :
 
   ```
-  g
+  d
   ```
 
 
   ## Questions
 
-  If you have any questions about the repo, open an issue or contact me directly at g. You can find more of my work at [g](https://github.com/g).
+  If you have any questions about the repo, open an issue or contact me directly at . You can find more of my work at [](https://github.com/).
