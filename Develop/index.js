@@ -7,7 +7,7 @@ const questions = ["What is your GitHub username ? ", "What is your email addres
 const [username, emailId, title, description, license, dependencies, tests, usage, Contribution] = questions;
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    
+
  }
 
 // TODO: Create a function to initialize app
@@ -56,7 +56,7 @@ function init() {
             
             {
               type: 'input',
-              name: 'test',
+              name: 'tests',
               message:tests,
             },
             
@@ -71,13 +71,13 @@ function init() {
                 message: Contribution,
               },
         ])
-    // .then((data) => {
-    //   const readMePageContent = generateMarkdown(data);
+    .then((data) => {
+      const readMePageContent = generateMarkdown(data);
 
-    //   fs.writeFile('README.md', readMePageContent, (err) =>
-    //     err ? console.log(err) : console.log('Successfully created README .!')
-    //   );
-    // })
+      fs.writeFile('README.md', readMePageContent, (err) =>
+        err ? console.log(err) : console.log('Successfully created README .!')
+      );
+    })
 }
 
 // Function call to initialize app
