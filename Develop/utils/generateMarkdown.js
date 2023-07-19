@@ -24,15 +24,44 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) { }
+function renderLicenseLink(license) { 
+  let licenseLink = ``;
+  switch (license) {
+    case "MIT":
+      licenseLink = `https://opensource.org/licenses/MIT`;
+      break;
+    case "APACHE 2.0":
+      licenseLink = `https://opensource.org/licenses/Apache-2.0`;
+      break;
+    case "GPL 3.0":
+      licenseLink = `https://www.gnu.org/licenses/gpl-3.0`;
+      break;
+    case "BSD 3":
+      licenseLink = `https://opensource.org/licenses/BSD-3-Clause`;
+      break;
+    default:
+      licenseLink = ``;
+      break;
+  }
+  return licenseLink;
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) { }
+function renderLicenseSection(license) { 
+
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  const badge = renderLicenseBadge(data.license);
+  if (renderLicenseBadge(data.license)) {
+    badge = renderLicenseBadge(data.license)
+  }
+  else {
+    badge = `N / A`;
+  }
+
+
   return `# ${data.title}
   ![GitHub license](${badge})
   

@@ -1,10 +1,10 @@
-# fe
-  ![GitHub license]()
+# g
+  ![GitHub license](https://img.shields.io/badge/License-MIT-yellow.svg)
   
  
   ## Description
   
-  e
+  g
 
   ## Table of Contents
 
@@ -20,30 +20,30 @@
    To install  necessary dependencies, run the following command :
 
   ```
-  fsd
+  g
   ```
  
   ## Usage
 
-  f
+  g
 
   ## License
 
-This project is licensed under the none license
+This project is licensed under the MIT license
 
   ## Contributing
 
-f
+g
 
   ## Tests
 
   To run tests, run the following command :
 
   ```
-  sf
+  g
   ```
 
 
   ## Questions
 
-  If you have any questions about the repo, open an issue or contact me directly at df. You can find more of my work at [f](https://github.com/f).
+  If you have any questions about the repo, open an issue or contact me directly at g. You can find more of my work at [g](https://github.com/g).
