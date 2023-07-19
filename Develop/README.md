@@ -1,10 +1,10 @@
-# d
-  ![GitHub license]()
+# Professional README
+  ![GitHub license](https://img.shields.io/badge/License-Apache_2.0-green.svg)
   
  
   ## Description
   
-  d
+  This buils a readme
 
   ## Table of Contents
 
@@ -20,30 +20,31 @@
    To install  necessary dependencies, run the following command :
 
   ```
-  d
+  npm i
   ```
  
   ## Usage
 
-  d
+  nothing
 
   ## License
 
- N/A 
+ This project is licensed under the APACHE 2.0 license
+ https://opensource.org/licenses/Apache-2.0 
 
   ## Contributing
 
-d
+emial me
 
   ## Tests
 
   To run tests, run the following command :
 
   ```
-  d
+  npm test
   ```
 
 
   ## Questions
 
-  If you have any questions about the repo, open an issue or contact me directly at . You can find more of my work at [](https://github.com/).
+  If you have any questions about the repo, open an issue or contact me directly at chimmu.p@gmail.com. You can find more of my work at [shimna-puthanayil](https://github.com/shimna-puthanayil).
