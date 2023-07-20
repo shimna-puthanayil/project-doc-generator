@@ -1,20 +1,24 @@
-// TODO: Include packages needed for this application
+//packages needed for this application
+
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
-// TODO: Create an array of questions for user input
+
+//an array of questions for user input
 const questions = ["What is your GitHub username ? ", "What is your email address ? ", "What is your project's name ?", "Please write a short description of your project.", "What kind of license should your project have ?", "What command should be run to install dependencies ? ", "What command should be run to run tests ?", "What does the user need to know about using the repo ? ", "Contributing to the repo ?"];
 const [username, emailId, title, description, license, dependencies, tests, usage, Contribution] = questions;
-// TODO: Create a function to write README file
+
+//a function to write README file
 function writeToFile(fileName, data) {
+    //calls the function which returns markdown for README.
     const readMePageContent = generateMarkdown(data);
-
-    fs.writeFile(fileName, readMePageContent, (err) =>
-      err ? console.log(err) : console.log('Successfully created README .!')
+    //README.md is stored in to a folder named 'output'.
+    fs.writeFile('./output/' + fileName, readMePageContent, (err) =>
+        err ? console.log(err) : console.log('Successfully created README .!')
     );
- }
+}
 
-// TODO: Create a function to initialize app
+// This function initializes the  app by creating prompt interface
 function init() {
 
     inquirer
@@ -57,27 +61,27 @@ function init() {
                 name: 'dependencies',
                 message: dependencies,
             },
-            
+
             {
-              type: 'input',
-              name: 'tests',
-              message:tests,
+                type: 'input',
+                name: 'tests',
+                message: tests,
             },
-            
+
             {
-              type: 'input',
-              name: 'usage',
-              message: usage,
+                type: 'input',
+                name: 'usage',
+                message: usage,
             },
             {
                 type: 'input',
                 name: 'Contribution',
                 message: Contribution,
-              },
+            },
         ])
-    .then((data) => {
-      writeToFile("README.md",data);
-    })
+        .then((data) => {
+            writeToFile("README.md", data);
+        })
 }
 
 // Function call to initialize app
