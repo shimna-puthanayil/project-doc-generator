@@ -20,7 +20,7 @@ The user is prompted with a series of questions for information about the applic
 
 #### Link to walkthrough video :
 
-https://drive.google.com/file/d/1BCzC6E51IicSdMV_Wdq-BiJpdV8QyXeR/view
+https://drive.google.com/file/d/1BEewN_9EPnwimxv9JEWVzNR7HlbsVrFS/view
 
 #### Link to generated README.md :
 
@@ -28,7 +28,7 @@ https://github.com/shimna-puthanayil/project-doc-generator/blob/main/Develop/out
 
 The following images show the application's appearance and functionality :
 
-![README](./Develop/images/READ-ME.gif)
+![README](./Develop/images/README.gif)
 
 ![README 1](./Develop/images/README1.png)
 

@@ -11,9 +11,9 @@
   * [Installation](#installation)
   * [Usage](#usage)
   * [License](#license)
-  * [Contributing](#license)
-  * [Tests](#license)
-  * [Questions](#license)
+  * [Contributing](#contributing)
+  * [Tests](#tests)
+  * [Questions](#questions)
 
   ## Installation
   
@@ -33,7 +33,7 @@
 
   ## Contributing
 
-  Pull requests are welcome. For major changes, please open an issue to discuss about the changes.
+  Pull requests are welcome. For major changes, please open an issue first to discuss about the changes.
 
   ## Tests
 
