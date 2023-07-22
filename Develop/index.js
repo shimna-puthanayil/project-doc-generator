@@ -6,7 +6,7 @@ const generateMarkdown = require('./utils/generateMarkdown');
 
 //an array of questions for user input
 const questions = ["What is your GitHub username ? ", "What is your email address ? ", "What is your project's name ?", "Please write a short description of your project.", "What kind of license should your project have ?", "What command should be run to install dependencies ? ", "What command should be run to run tests ?", "What does the user need to know about using the repo ? ", "Contributing to the repo ?"];
-const [username, emailId, title, description, license, dependencies, tests, usage, Contribution] = questions;
+const [username, emailId, title, description, license, dependencies, tests, usage, contribution] = questions;
 
 //a function to write README file
 function writeToFile(fileName, data) {
@@ -75,8 +75,8 @@ function init() {
             },
             {
                 type: 'input',
-                name: 'Contribution',
-                message: Contribution,
+                name: 'contribution',
+                message: contribution,
             },
         ])
         .then((data) => {
