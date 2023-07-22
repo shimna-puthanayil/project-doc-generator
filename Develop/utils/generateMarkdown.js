@@ -52,7 +52,7 @@ function renderLicenseSection(license) {
   let licenseText = `N/A`;
   if (renderLicenseLink(license)) {
     link = renderLicenseLink(license);
-    licenseText = `This project is licensed under the [${license}](${link}) license`;
+    licenseText = `This project is licensed under the [${license}](${link}) license.`;
   }
   return licenseText;
 }
@@ -109,7 +109,6 @@ function generateMarkdown(data) {
   \`\`\`
   ${data.tests}
   \`\`\`
-
 
   ## Questions
 
