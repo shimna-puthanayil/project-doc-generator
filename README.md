@@ -6,11 +6,13 @@ This command-line application dynamically generates a professional README file f
 
 ## Installation
 
-To install  necessary dependencies, run the following command :
+- Install Node.js v16 
+- Clone the Repository from GitHub
+- Go to the folder 'Develop' and install  necessary dependencies running the following command :
 
   ```
   npm i inquirer@8.2.4
- ```
+  ```
 
 ## Usage
 
