@@ -28,7 +28,7 @@ https://github.com/shimna-puthanayil/project-doc-generator/blob/main/Develop/out
 
 The following images show the application's appearance and functionality :
 
-![README](./Develop/images/README.gif)
+![README](./Develop/images/READ-ME.gif)
 
 ![README 1](./Develop/images/README1.png)
 
@@ -38,7 +38,7 @@ The following images show the application's appearance and functionality :
 
 ![README 3](./Develop/images/README3.png)
 
-### Preview of README
+#### Preview of README
 
 ![README 4](./Develop/images/README4.png)
 
