@@ -11,7 +11,7 @@ This command-line application dynamically generates a professional README file f
 - Go to the folder 'Develop' and install  necessary dependencies running the following command :
 
   ```
-  npm i inquirer@8.2.4
+  npm i 
   ```
 
 ## Usage
