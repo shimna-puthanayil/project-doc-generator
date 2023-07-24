@@ -15,12 +15,16 @@ This command-line application dynamically generates a professional README file f
   ```
 
 ## Usage
+The application will be invoked by using the following command:(by right clicking on the folder 'Develop' and then Open in Integrated Terminal will result in displaying the terminal. After the terminal is opened type node index.js to run the application)
 
-The user is prompted with a series of questions for information about the application repository when the application is run (by right clicking on the folder 'Develop' and then Open in Integrated Terminal will result in displaying the terminal. After the terminal is opened type node index.js to run the application). These questions include GitHub username, email address, project's title, short description of the project, license the project is covered under (the user has to choose the license from a list of licenses), command needed to install the dependencies and tests, usage instructions and how to contribute to the project. After all the questions are answered a success message will be displayed and a README.md file will be generated in to the folder 'output'.
+  ```
+  node index.js
+  ```
+The user is prompted with a series of questions for information about the application repository when the application is run . These questions include GitHub username, email address, project's title, short description of the project, license the project is covered under (the user has to choose the license from a list of licenses), command needed to install the dependencies and tests, usage instructions and how to contribute to the project. After all the questions are answered a success message will be displayed and a README.md file will be generated in the folder 'output'.
 
 #### Link to walkthrough video :
 
-https://drive.google.com/file/d/1BEewN_9EPnwimxv9JEWVzNR7HlbsVrFS/view
+https://drive.google.com/file/d/15Vqal9twn2-beLRXK6EbedIPafDemG7F/view?usp=sharing
 
 #### Link to generated README.md :
 
